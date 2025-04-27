@@ -39,6 +39,8 @@ app.get("/kabkota", (req, res) => {
   });
 });
 
+app.get("")
+
 // Note: Fixed port number inconsistency (was 8081 in listen, 8001 in console.log)
 const PORT = 8081;
 app.listen(PORT, () => {
